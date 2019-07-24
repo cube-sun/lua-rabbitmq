@@ -1,4 +1,4 @@
-// author : wangjingjing
+// author : cube-sun
 
 #include <stdio.h>
 #include <stdlib.h>
