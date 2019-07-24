@@ -30,8 +30,8 @@
 * 创建channel对象 <br/>
 参数1(number, opt)：自定义channelId值，可选参数，默认不需要填入，系统自动生成<br/>
 返回值： 1：channel对象，2：错误信息<br/>
-> 成功：1:channel, 2:nil<br/>
-> 失败：1：nil, 2:错误信息<br/>
+成功：1:channel, 2:nil<br/>
+失败：1：nil, 2:错误信息<br/>
 **mq:connect([channelId])**
 <br/><br/>
 
@@ -58,8 +58,8 @@
 参数3(boolean)：exclusive , true当前连接不在时，队列自动删除  false当前连接不在时，队列不自动删除<br/>
 参数4(boolean)：auto_delete, true没有consumer时，队列自动删除  false没有consumer时，队列不自动删除<br/>
 返回值： 1：queue名字，2：错误信息<br/>
-> 成功：1：queue名字, 2:nil<br/>
-> 失败：1：nil, 2:错误信息<br/>
+成功：1：queue名字, 2:nil<br/>
+失败：1：nil, 2:错误信息<br/>
 **channel:queueDeclare(queue, durable, exclusive, auto_delete)**
 <br/><br/>
 
