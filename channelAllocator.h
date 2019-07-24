@@ -1,4 +1,4 @@
-// author : wangjingjing
+// author : cube-sun
 
 #ifndef	CHANNEL_ALLOCATOR_H
 #define CHANNEL_ALLOCATOR_H
